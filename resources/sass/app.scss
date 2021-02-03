@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+nav.admin-menu{
+    background: #343a40;
+    border-radius: 3px;
+}
+
+nav.admin-menu ul{
+    list-style: none;
+    padding: 0px;
+}
+
+
+nav.admin-menu ul li a{
+    color : white;
+    text-decoration: none;
+    padding: 15px 10px;
+    letter-spacing: 1px;
+    display : block;
+}
+nav.admin-menu ul li a:hover,
+nav.admin-menu ul li a.active{
+    background :grey;
+}
+
+button.btn.btn-secondary.mb-2.btn-sm {
+    height: 35px;
+}
+
+a.btn.btn-primary.btn-sm {
+    width: 55px;
+}
